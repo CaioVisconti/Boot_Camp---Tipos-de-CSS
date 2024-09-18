@@ -1,0 +1,50 @@
+/* Variáveis CSS pra mexer na html*/
+/* Estilização do card (tamanho, cor e borda)*/
+.card {
+	width:500px; /*Tamanho da largura*/
+	height: fit-content; /*Tamanho da altura*/
+	background-color: aliceblue; /*Cor do fundo*/
+	border: solid 2px navy; /*Estilização da tag: (solid = traço sólido), tamannho e cor*/
+	margin: 20px; /*Distância da lateral da página*/
+	padding: 40px; /*Margem interna*/
+}
+
+/* Estilização das bordas (tamanho da curvatura da borda)*/
+ .border {
+	border-radius: 20px; /*Curvatura de uma borda*/
+}
+
+
+/* Estilização do ícone (tamanho e imagem escolhida)*/
+.icone1{
+	width: 100px;
+	height: 100px;
+	background-image: url('https://cdn-icons-png.flaticon.com/512/706/706830.png'); /*Imagem que ficará de plano de fundo*/
+	background-size: cover;
+}
+
+/* Estilização do ícone (tamanho e imagem escolhida)*/
+.icone2{
+
+	width: 100px;
+	height: 100px;
+	background-image: url('https://cdn-icons-png.flaticon.com/256/3681/3681928.png');
+	background-size: cover;
+
+}
+
+.text{
+	font-family: Arial /*Formato que ficará o texto*/
+}
+
+.tittle{
+	font-size: 30px; /*Tamanho da fonte*/
+}
+
+p {
+	font-size: 15px;
+}
+
+.main-color{
+	color: navy; /*Cor da fonte*/
+}
